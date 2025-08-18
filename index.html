@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wish List del Bebé</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Futura:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+    /* Nota: Google Fonts no tiene Futura, por eso uso Quicksand que se parece bastante */
 
     body {
       margin: 0;
-      font-family: 'Futura', sans-serif;
+      font-family: 'Quicksand', sans-serif;
       background: linear-gradient(to bottom, #0077b6, #00b4d8, #90e0ef);
       color: white;
       text-align: center;
@@ -20,13 +21,17 @@
     }
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
       color: #fff1dc;
       text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
     }
-    p {
+    .subtitulo {
       font-size: 1.2rem;
-      margin-bottom: 2rem;
+      font-weight: 400;
+      color: #f8f9fa;
+      max-width: 800px;
+      margin: 0 auto 2.5rem auto;
+      line-height: 1.6;
     }
     ul {
       list-style: none;
@@ -84,7 +89,10 @@
 <body>
   <header>
     <h1>🌊 Wish List del Bebé 🐠</h1>
-    <p> Aquí te dejo unas ideas que pueden ser útiles para escoger un detalle que pueda ayudarnos en el momento de la llegada de nuestro bebé; los pañales, pañitos y ropa son siempre bienvenidos y recuerda que el mejor regalo es tu presencia. </p>
+    <p class="subtitulo">
+      Aquí te dejo unas ideas que pueden ser útiles para escoger un detalle que pueda ayudarnos en el momento de la llegada de nuestro bebé; 
+      los pañales, pañitos y ropa son siempre bienvenidos y recuerda que el mejor regalo es tu presencia.
+    </p>
   </header>
 
   <ul>
@@ -129,5 +137,3 @@
   </div>
 </body>
 </html>
-
-
